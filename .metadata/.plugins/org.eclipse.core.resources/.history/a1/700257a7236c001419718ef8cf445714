@@ -1,0 +1,12 @@
+package mediaPanel;
+//JPanel that plays a media file 
+import java.awt.BorderLayout;
+import java.awt.Component;
+import java.io.IOException;
+import java.net.URL;
+import javax.media.CannotRealizeException;
+import javax.media.Manager;
+import javax.media.NoPlayerException;
+public class MediaPanel {
+
+}
