@@ -1,0 +1,21 @@
+package part4;
+//import everything 
+import javax.swing.*;
+import javax.swing.event.*;
+import java.awt.*;
+import java.awt.Event;
+public class part4 extends JFrame
+{
+	//this is the constant that will hold the screen size
+	final int WIDTH= 900, HEIGHT = 650;
+	
+	Rectangle left = new Rectangle (0,0, WIDTH/9, HEIGHT);
+	Rectangle right= new Rectangle( (WIDTH/9)*9, 0,WIDTH/9, HEIGHT);
+	Rectangle top = new Rectangle (0,0, WIDTH, HEIGHT/9);
+	Rectangle bottom = new Rectangle (0,0, HEIGHT/9, WIDTH);
+	Rectangle center = new Rectangle ((int)((WIDTH/9)*2.5), (int)((HEIGHT/9)*2.5),(int)((WIDTH/9)*5), (HEIGHT/9)*4 );
+	
+	
+	
+
+}
