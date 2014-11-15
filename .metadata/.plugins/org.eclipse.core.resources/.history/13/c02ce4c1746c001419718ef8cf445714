@@ -74,9 +74,6 @@ public class part4 extends JFrame
 		//WHEN WE DRAW, THE BORER WILLBE GREEN 
 		g.setColor(Color.GREEN);
 		
-		
-		
-		
 		//now, using the rectangles, draw it
 		g.fillRect(left.x, left.y, left.width, left.height);
 		g.fillRect(right.x, right.y, right.width, right.height);
